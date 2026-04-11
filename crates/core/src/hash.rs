@@ -375,7 +375,7 @@ pub use keccak::Keccak256;
 use crate::hash::poseidon2::Poseidon2;
 
 mod poseidon2 {
-    use poseidon_m31::{PoseidonHasher, hash_bytes};
+    use poseidon_m31::{hash_bytes, PoseidonHasher};
 
     /// Poseidon2 hash algorithm (native, non-VM).
     #[derive(Default, Clone)]
@@ -386,17 +386,17 @@ mod poseidon2 {
             super::HashAlgId::POSEIDON2
         }
 
-        fn hash(&self, data: &[u8]) -> super::Hash {                                            
-            println!("Poseidon native hasher");                                                 
-            super::Hash::new(&hash_bytes(data))                                                                                    
-        }                                                                                       
-                                                                                                
+        fn hash(&self, data: &[u8]) -> super::Hash {
+            println!("Poseidon native hasher");
+            super::Hash::new(&hash_bytes(data))
+        }
+
         fn hash_prefixed(&self, prefix: &[u8], data: &[u8]) -> super::Hash {
             println!("Poseidon native hasher");
             let mut hasher = PoseidonHasher::new();
-            hasher.update(prefix);                                                              
+            hasher.update(prefix);
             hasher.update(data);
-            super::Hash::new(&hasher.finalize())                                                
-        }         
+            super::Hash::new(&hasher.finalize())
+        }
     }
 }

@@ -4295,7 +4295,6 @@ dependencies = [
  "serde",
  "thiserror 1.0.69",
  "typenum",
- "zerocopy",
 ]
 
 [[package]]
@@ -5249,6 +5248,7 @@ checksum = "c33a9471896f1c69cecef8d20cbe2f7accd12527ce60845ff44c153bb2a21b49"
 [[package]]
 name = "poseidon-m31"
 version = "0.1.0"
+source = "git+https://github.com/anhelinakruk/poseidon-m31?branch=main#f78dcab8066e00baf525c77573c22b57d6ef47d7"
 
 [[package]]
 name = "potential_utf"

@@ -224,7 +224,9 @@ fn hash_commit_inner(
                         .update(vm, &refs.get(range).expect("plaintext refs are valid"))
                         .map_err(HashCommitError::hasher)?;
                 }
-                hasher.update(vm, &blinder).map_err(HashCommitError::hasher)?;
+                hasher
+                    .update(vm, &blinder)
+                    .map_err(HashCommitError::hasher)?;
                 hasher.finalize(vm).map_err(HashCommitError::hasher)?
             }
             alg => {
