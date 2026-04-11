@@ -13,17 +13,13 @@ use tracing::instrument;
 
 use tlsn::{
     Session,
-    config::{
+    Session, config::{
         prove::ProveConfig,
         prover::ProverConfig,
         tls::TlsClientConfig,
         tls_commit::{TlsCommitConfig, TlsCommitProtocolConfig, mpc::MpcTlsConfig},
         verifier::VerifierConfig,
-    },
-    connection::ServerName,
-    transcript::PartialTranscript,
-    verifier::VerifierOutput,
-    webpki::{CertificateDer, RootCertStore},
+    }, connection::ServerName, hash::HashAlgId, transcript::{Direction, PartialTranscript, TranscriptCommitConfig, TranscriptCommitmentKind}, verifier::VerifierOutput, webpki::{CertificateDer, RootCertStore}
 };
 use tlsn_server_fixture::DEFAULT_FIXTURE_PORT;
 use tlsn_server_fixture_certs::{CA_CERT_DER, SERVER_DOMAIN};
