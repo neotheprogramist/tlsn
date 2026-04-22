@@ -1842,7 +1842,7 @@ checksum = "c8d4a3bb8b1e0c1050499d1815f5ab16d04f0959b233085fb31653fbfc9d98f9"
 [[package]]
 name = "clmul"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "bytemuck",
  "cfg-if",
@@ -4120,7 +4120,7 @@ checksum = "47e1ffaa40ddd1f3ed91f717a33c8c0ee23fff369e3aa8772b9605cc1d22f4c3"
 [[package]]
 name = "matrix-transpose"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "thiserror 1.0.69",
 ]
@@ -4177,7 +4177,7 @@ dependencies = [
 [[package]]
 name = "mpz-circuits"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "mpz-circuits-core",
  "mpz-circuits-data",
@@ -4186,7 +4186,7 @@ dependencies = [
 [[package]]
 name = "mpz-circuits-core"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "bincode",
  "itybity 0.3.2",
@@ -4201,7 +4201,7 @@ dependencies = [
 [[package]]
 name = "mpz-circuits-data"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "bincode",
  "mpz-circuits-core",
@@ -4211,7 +4211,7 @@ dependencies = [
 [[package]]
 name = "mpz-cointoss"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "futures",
  "mpz-cointoss-core",
@@ -4224,7 +4224,7 @@ dependencies = [
 [[package]]
 name = "mpz-cointoss-core"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "mpz-core",
  "opaque-debug",
@@ -4235,7 +4235,7 @@ dependencies = [
 [[package]]
 name = "mpz-common"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "async-trait",
  "bytes",
@@ -4254,7 +4254,7 @@ dependencies = [
 [[package]]
 name = "mpz-core"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "aes 0.9.0",
  "bcs",
@@ -4280,7 +4280,7 @@ dependencies = [
 [[package]]
 name = "mpz-fields"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "ark-ff 0.4.2",
  "ark-secp256r1",
@@ -4300,7 +4300,7 @@ dependencies = [
 [[package]]
 name = "mpz-garble"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "async-trait",
  "derive_builder 0.11.2",
@@ -4326,7 +4326,7 @@ dependencies = [
 [[package]]
 name = "mpz-garble-core"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "aes 0.9.0",
  "bitvec",
@@ -4357,7 +4357,7 @@ dependencies = [
 [[package]]
 name = "mpz-hash"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "blake3",
  "itybity 0.3.2",
@@ -4370,7 +4370,7 @@ dependencies = [
 [[package]]
 name = "mpz-ideal-vm"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "async-trait",
  "futures",
@@ -4387,7 +4387,7 @@ dependencies = [
 [[package]]
 name = "mpz-memory-core"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "blake3",
  "futures",
@@ -4402,7 +4402,7 @@ dependencies = [
 [[package]]
 name = "mpz-ole"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "async-trait",
  "futures",
@@ -4420,7 +4420,7 @@ dependencies = [
 [[package]]
 name = "mpz-ole-core"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "hybrid-array",
  "itybity 0.3.2",
@@ -4436,7 +4436,7 @@ dependencies = [
 [[package]]
 name = "mpz-ot"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "async-trait",
  "cfg-if",
@@ -4460,7 +4460,7 @@ dependencies = [
 [[package]]
 name = "mpz-ot-core"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "aes 0.9.0",
  "blake3",
@@ -4491,7 +4491,7 @@ dependencies = [
 [[package]]
 name = "mpz-share-conversion"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "async-trait",
  "mpz-common",
@@ -4507,7 +4507,7 @@ dependencies = [
 [[package]]
 name = "mpz-share-conversion-core"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "mpz-common",
  "mpz-core",
@@ -4521,7 +4521,7 @@ dependencies = [
 [[package]]
 name = "mpz-vm-core"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "async-trait",
  "futures",
@@ -4534,7 +4534,7 @@ dependencies = [
 [[package]]
 name = "mpz-zk"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "async-trait",
  "blake3",
@@ -4552,7 +4552,7 @@ dependencies = [
 [[package]]
 name = "mpz-zk-core"
 version = "0.1.0-alpha.5"
-source = "git+https://github.com/anhelinakruk/mpz?rev=37fbf19855592cca6a8dcc8eba974a6bb1039c88#37fbf19855592cca6a8dcc8eba974a6bb1039c88"
+source = "git+https://github.com/anhelinakruk/mpz?rev=ef96458ab3b1a3b70632f37be5bb4898bbedc43d#ef96458ab3b1a3b70632f37be5bb4898bbedc43d"
 dependencies = [
  "blake3",
  "cfg-if",
