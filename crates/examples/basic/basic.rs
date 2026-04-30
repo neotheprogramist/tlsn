@@ -24,7 +24,6 @@ use tlsn::{
     transcript::PartialTranscript,
     verifier::VerifierOutput,
     webpki::{CertificateDer, RootCertStore},
-    Session,
 };
 use tlsn_server_fixture::DEFAULT_FIXTURE_PORT;
 use tlsn_server_fixture_certs::{CA_CERT_DER, SERVER_DOMAIN};
