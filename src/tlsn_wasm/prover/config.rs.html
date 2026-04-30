@@ -14,5 +14,9 @@
 <a href=#14 id=14 data-nosnippet>14</a>    <span class="kw">pub </span>defer_decryption_from_start: <span class="prelude-ty">Option</span>&lt;bool&gt;,
 <a href=#15 id=15 data-nosnippet>15</a>    <span class="kw">pub </span>network: NetworkSetting,
 <a href=#16 id=16 data-nosnippet>16</a>    <span class="kw">pub </span>client_auth: <span class="prelude-ty">Option</span>&lt;(Vec&lt;Vec&lt;u8&gt;&gt;, Vec&lt;u8&gt;)&gt;,
-<a href=#17 id=17 data-nosnippet>17</a>}
+<a href=#17 id=17 data-nosnippet>17</a>    <span class="doccomment">/// Custom root certificates (DER-encoded) for TLS server verification.
+<a href=#18 id=18 data-nosnippet>18</a>    ///
+<a href=#19 id=19 data-nosnippet>19</a>    /// If not provided, Mozilla root certificates are used.
+<a href=#20 id=20 data-nosnippet>20</a>    </span><span class="kw">pub </span>root_certs: <span class="prelude-ty">Option</span>&lt;Vec&lt;Vec&lt;u8&gt;&gt;&gt;,
+<a href=#21 id=21 data-nosnippet>21</a>}
 </code></pre></div></section></main></body></html>
