@@ -132,6 +132,7 @@ opaque-debug = { version = "0.3" }
 p256 = { version = "0.13" }
 pin-project-lite = { version = "0.2" }
 pollster = { version = "0.4" }
+poseidon-m31 = { git = "https://github.com/anhelinakruk/poseidon-m31", branch = "main" }
 rand = { version = "0.9" }
 rand_chacha = { version = "0.9" }
 rand_core = { version = "0.9" }

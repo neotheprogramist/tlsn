@@ -31,6 +31,9 @@ const DEFAULT_COMMITMENT_KINDS: &[TranscriptCommitmentKind] = &[
     TranscriptCommitmentKind::Hash {
         alg: HashAlgId::KECCAK256,
     },
+    TranscriptCommitmentKind::Hash {
+        alg: HashAlgId::POSEIDON2,
+    },
 ];
 
 /// Proof of the contents of a transcript.
