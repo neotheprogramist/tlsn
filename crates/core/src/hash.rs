@@ -25,7 +25,7 @@ impl Default for HashProvider {
         algs.insert(HashAlgId::SHA256, Box::new(Sha256::default()));
         algs.insert(HashAlgId::BLAKE3, Box::new(Blake3::default()));
         algs.insert(HashAlgId::KECCAK256, Box::new(Keccak256::default()));
-        // algs.insert(HashAlgId::POSEIDON2, Box::new(Poseidon2::default()));
+        algs.insert(HashAlgId::POSEIDON2, Box::new(Poseidon2::default()));
 
         Self { algs }
     }
