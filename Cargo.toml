@@ -67,21 +67,21 @@ tlsn-harness-runner = { path = "crates/harness/runner" }
 tlsn-wasm = { path = "crates/wasm" }
 tlsn = { path = "crates/tlsn" }
 
-mpz-circuits = { git = "https://github.com/anhelinakruk/mpz", branch = "feat/poseidon-circuit" }
-mpz-circuits-data = { git = "https://github.com/anhelinakruk/mpz", branch = "feat/poseidon-circuit" }
-mpz-memory-core = { git = "https://github.com/anhelinakruk/mpz", branch = "feat/poseidon-circuit" }
-mpz-common = { git = "https://github.com/anhelinakruk/mpz", branch = "feat/poseidon-circuit" }
-mpz-core = { git = "https://github.com/anhelinakruk/mpz", branch = "feat/poseidon-circuit" }
-mpz-vm-core = { git = "https://github.com/anhelinakruk/mpz", branch = "feat/poseidon-circuit" }
-mpz-garble = { git = "https://github.com/anhelinakruk/mpz", branch = "feat/poseidon-circuit" }
-mpz-garble-core = { git = "https://github.com/anhelinakruk/mpz", branch = "feat/poseidon-circuit" }
-mpz-ole = { git = "https://github.com/anhelinakruk/mpz", branch = "feat/poseidon-circuit" }
-mpz-ot = { git = "https://github.com/anhelinakruk/mpz", branch = "feat/poseidon-circuit" }
-mpz-share-conversion = { git = "https://github.com/anhelinakruk/mpz", branch = "feat/poseidon-circuit" }
-mpz-fields = { git = "https://github.com/anhelinakruk/mpz", branch = "feat/poseidon-circuit" }
-mpz-zk = { git = "https://github.com/anhelinakruk/mpz", branch = "feat/poseidon-circuit" }
-mpz-hash = { git = "https://github.com/anhelinakruk/mpz", branch = "feat/poseidon-circuit" }
-mpz-ideal-vm = { git = "https://github.com/anhelinakruk/mpz", branch = "feat/poseidon-circuit" }
+mpz-circuits = { git = "https://github.com/anhelinakruk/mpz", rev = "ed4b6a71d1eb1a7d23d31b100a520a57787808e4"}
+mpz-circuits-data = { git = "https://github.com/anhelinakruk/mpz", rev = "ed4b6a71d1eb1a7d23d31b100a520a57787808e4" }
+mpz-memory-core = { git = "https://github.com/anhelinakruk/mpz", rev = "ed4b6a71d1eb1a7d23d31b100a520a57787808e4" }
+mpz-common = { git = "https://github.com/anhelinakruk/mpz", rev = "ed4b6a71d1eb1a7d23d31b100a520a57787808e4" }
+mpz-core = { git = "https://github.com/anhelinakruk/mpz", rev = "ed4b6a71d1eb1a7d23d31b100a520a57787808e4" }
+mpz-vm-core = { git = "https://github.com/anhelinakruk/mpz", rev = "ed4b6a71d1eb1a7d23d31b100a520a57787808e4" }
+mpz-garble = { git = "https://github.com/anhelinakruk/mpz", rev = "ed4b6a71d1eb1a7d23d31b100a520a57787808e4" }
+mpz-garble-core = { git = "https://github.com/anhelinakruk/mpz", rev = "ed4b6a71d1eb1a7d23d31b100a520a57787808e4" }
+mpz-ole = { git = "https://github.com/anhelinakruk/mpz", rev = "ed4b6a71d1eb1a7d23d31b100a520a57787808e4" }
+mpz-ot = { git = "https://github.com/anhelinakruk/mpz", rev = "ed4b6a71d1eb1a7d23d31b100a520a57787808e4" }
+mpz-share-conversion = { git = "https://github.com/anhelinakruk/mpz", rev = "ed4b6a71d1eb1a7d23d31b100a520a57787808e4" }
+mpz-fields = { git = "https://github.com/anhelinakruk/mpz", rev = "ed4b6a71d1eb1a7d23d31b100a520a57787808e4" }
+mpz-zk = { git = "https://github.com/anhelinakruk/mpz", rev = "ed4b6a71d1eb1a7d23d31b100a520a57787808e4" }
+mpz-hash = { git = "https://github.com/anhelinakruk/mpz", rev = "ed4b6a71d1eb1a7d23d31b100a520a57787808e4" }
+mpz-ideal-vm = { git = "https://github.com/anhelinakruk/mpz", rev = "ed4b6a71d1eb1a7d23d31b100a520a57787808e4" }
 
 rangeset = { version = "0.4" }
 serio = { version = "0.2" }
