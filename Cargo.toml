@@ -71,21 +71,21 @@ tlsn-sdk-core = { path = "crates/sdk-core" }
 tlsn-wasm = { path = "crates/wasm" }
 tlsn = { path = "crates/tlsn" }
 
-mpz-circuits = { git = "https://github.com/privacy-ethereum/mpz", rev = "2ca532f3bf1d8da5ffb8f88dcb4258efc4a305a8" }
-mpz-circuits-data = { git = "https://github.com/privacy-ethereum/mpz", rev = "2ca532f3bf1d8da5ffb8f88dcb4258efc4a305a8" }
-mpz-memory-core = { git = "https://github.com/privacy-ethereum/mpz", rev = "2ca532f3bf1d8da5ffb8f88dcb4258efc4a305a8" }
-mpz-common = { git = "https://github.com/privacy-ethereum/mpz", rev = "2ca532f3bf1d8da5ffb8f88dcb4258efc4a305a8" }
-mpz-core = { git = "https://github.com/privacy-ethereum/mpz", rev = "2ca532f3bf1d8da5ffb8f88dcb4258efc4a305a8" }
-mpz-vm-core = { git = "https://github.com/privacy-ethereum/mpz", rev = "2ca532f3bf1d8da5ffb8f88dcb4258efc4a305a8" }
-mpz-garble = { git = "https://github.com/privacy-ethereum/mpz", rev = "2ca532f3bf1d8da5ffb8f88dcb4258efc4a305a8" }
-mpz-garble-core = { git = "https://github.com/privacy-ethereum/mpz", rev = "2ca532f3bf1d8da5ffb8f88dcb4258efc4a305a8" }
-mpz-ole = { git = "https://github.com/privacy-ethereum/mpz", rev = "2ca532f3bf1d8da5ffb8f88dcb4258efc4a305a8" }
-mpz-ot = { git = "https://github.com/privacy-ethereum/mpz", rev = "2ca532f3bf1d8da5ffb8f88dcb4258efc4a305a8" }
-mpz-share-conversion = { git = "https://github.com/privacy-ethereum/mpz", rev = "2ca532f3bf1d8da5ffb8f88dcb4258efc4a305a8" }
-mpz-fields = { git = "https://github.com/privacy-ethereum/mpz", rev = "2ca532f3bf1d8da5ffb8f88dcb4258efc4a305a8" }
-mpz-zk = { git = "https://github.com/privacy-ethereum/mpz", rev = "2ca532f3bf1d8da5ffb8f88dcb4258efc4a305a8" }
-mpz-hash = { git = "https://github.com/privacy-ethereum/mpz", rev = "2ca532f3bf1d8da5ffb8f88dcb4258efc4a305a8" }
-mpz-ideal-vm = { git = "https://github.com/privacy-ethereum/mpz", rev = "2ca532f3bf1d8da5ffb8f88dcb4258efc4a305a8" }
+mpz-circuits = { git = "https://github.com/anhelinakruk/mpz", rev = "b52b77d34b3f8ccc05052f8a18bc65cd41767a28" }
+mpz-circuits-data = { git = "https://github.com/anhelinakruk/mpz", rev = "b52b77d34b3f8ccc05052f8a18bc65cd41767a28" }
+mpz-memory-core = { git = "https://github.com/anhelinakruk/mpz", rev = "b52b77d34b3f8ccc05052f8a18bc65cd41767a28" }
+mpz-common = { git = "https://github.com/anhelinakruk/mpz", rev = "b52b77d34b3f8ccc05052f8a18bc65cd41767a28" }
+mpz-core = { git = "https://github.com/anhelinakruk/mpz", rev = "b52b77d34b3f8ccc05052f8a18bc65cd41767a28" }
+mpz-vm-core = { git = "https://github.com/anhelinakruk/mpz", rev = "b52b77d34b3f8ccc05052f8a18bc65cd41767a28" }
+mpz-garble = { git = "https://github.com/anhelinakruk/mpz", rev = "b52b77d34b3f8ccc05052f8a18bc65cd41767a28" }
+mpz-garble-core = { git = "https://github.com/anhelinakruk/mpz", rev = "b52b77d34b3f8ccc05052f8a18bc65cd41767a28" }
+mpz-ole = { git = "https://github.com/anhelinakruk/mpz", rev = "b52b77d34b3f8ccc05052f8a18bc65cd41767a28" }
+mpz-ot = { git = "https://github.com/anhelinakruk/mpz", rev = "b52b77d34b3f8ccc05052f8a18bc65cd41767a28" }
+mpz-share-conversion = { git = "https://github.com/anhelinakruk/mpz", rev = "b52b77d34b3f8ccc05052f8a18bc65cd41767a28" }
+mpz-fields = { git = "https://github.com/anhelinakruk/mpz", rev = "b52b77d34b3f8ccc05052f8a18bc65cd41767a28" }
+mpz-zk = { git = "https://github.com/anhelinakruk/mpz", rev = "b52b77d34b3f8ccc05052f8a18bc65cd41767a28" }
+mpz-hash = { git = "https://github.com/anhelinakruk/mpz", rev = "b52b77d34b3f8ccc05052f8a18bc65cd41767a28" }
+mpz-ideal-vm = { git = "https://github.com/anhelinakruk/mpz", rev = "b52b77d34b3f8ccc05052f8a18bc65cd41767a28" }
 
 futures-plex = { git = "https://github.com/tlsnotary/tlsn-utils", rev = "64722f7" }
 rangeset = { version = "0.4" }
