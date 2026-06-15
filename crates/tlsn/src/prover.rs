@@ -483,13 +483,27 @@ where
 
         // tls_client -> tls_conn
         // Always poll to register wakers, then check wants_read()
-        if let Poll::Ready(mut simplex) = state.client_io.as_mut().poll_lock_write(cx)
-            && let Poll::Ready(buf) = simplex.poll_mut(cx)?
-            && state.tls_client.wants_read()
-        {
-            let read = state.tls_client.read(buf)?;
-            if read > 0 {
-                simplex.advance_mut(read);
+        if let Poll::Ready(mut simplex) = state.client_io.as_mut().poll_lock_write(cx) {
+            match simplex.poll_mut(cx) {
+                // The reader (e.g. hyper) may have already closed its end of the
+                // duplex after the HTTP response, and `client_io` itself may have
+                // been closed by the teardown path. Ignore it, mirroring the
+                // `server_socket` read handling above.
+                Poll::Ready(Err(err))
+                    if matches!(
+                        err.kind(),
+                        std::io::ErrorKind::BrokenPipe | std::io::ErrorKind::ConnectionReset
+                    ) => {}
+                Poll::Ready(Err(err)) => return Err(Error::from(err)),
+                Poll::Ready(Ok(buf)) => {
+                    if state.tls_client.wants_read() {
+                        let read = state.tls_client.read(buf)?;
+                        if read > 0 {
+                            simplex.advance_mut(read);
+                        }
+                    }
+                }
+                Poll::Pending => {}
             }
         }
 
